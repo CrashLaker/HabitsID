@@ -18,5 +18,6 @@ GPIO.output(pin, GPIO.HIGH)
 sleep(delay) 
 # Turn all relays OFF
 GPIO.output(pin, GPIO.LOW)
+GPIO.cleanup()
 # Sleep for 5 seconds
 #   sleep(delay2)
